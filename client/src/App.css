@@ -1,0 +1,7 @@
+.menuList {
+    position:'fixed';
+    width:'100%'; 
+    padding:'20px'; 
+    background: 'white'; 
+    box-shadow: '2px 0px 10px grey';
+}

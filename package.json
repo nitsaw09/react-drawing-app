@@ -1,0 +1,19 @@
+{
+  "name": "drawing-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "author": "Nitesh Ghuge",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.7.0",
+    "concurrently": "5.1.0",
+    "express": "^4.8.7",
+    "nodemon": "2.0.2"
+  }
+}
